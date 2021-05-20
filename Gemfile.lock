@@ -213,6 +213,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (2.1.1)
+    rexml (3.2.5)
     ruby-progressbar (1.11.0)
     ruby-vips (2.1.2)
       ffi (~> 1.12)
@@ -305,6 +306,7 @@ DEPENDENCIES
   puma
   rails (= 6.0.3)
   rails-controller-testing
+  rexml
   sass-rails
   selenium-webdriver
   simplecov
@@ -319,4 +321,4 @@ DEPENDENCIES
   will_paginate
 
 BUNDLED WITH
-   2.2.15
+   2.2.17
